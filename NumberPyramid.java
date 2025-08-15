@@ -1,11 +1,10 @@
-package AssJava;
-
+package AssignJava;
 class NumberPyramid 
 {
     public static void main(String[] args) 
     {
         int no, i, j, k, l;
-        no=5;//(int)(Math.random()*10);
+        no=(int)(Math.random()*10);
         System.out.println("Generated Number is:"+no);
         for (i=1; i<=no; i++) 
         {
@@ -24,4 +23,5 @@ class NumberPyramid
             System.out.println();
         }
     }
+
 }
